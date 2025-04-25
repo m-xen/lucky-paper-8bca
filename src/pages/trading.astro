@@ -6,7 +6,7 @@ import Layout from '../layouts/BlogPost.astro';
 	title="Trading"
 	description="Links and tools for trading financial markets"
 	pubDate={new Date('April 24 2025')}
-	heroImage="/blog-placeholder-about.jpg">
+	heroImage="/canarywharf.jpg">
 
 	<iframe 
 		src="https://ssltvc.investing.com/?pair_ID=651&height=480&width=650&interval=3600&plotStyle=area&domain_ID=1&lang_ID=1&timezone_ID=11"
@@ -25,17 +25,6 @@ import Layout from '../layouts/BlogPost.astro';
 		marginheight="0">
 	</iframe>
 
-	<input type="button"
-	id="btn1"
-	value="Refresh Now!"/>
-
-        <script>
-            function reload() {
-                document.getElementById('allnums').src += '';
-            }
-            btn1.onclick = reload;
-        </script>
-
 	<iframe id="somenums"
 		src="https://ssltools.investing.com/technical_summary.php?pairs=1,8830,8849,166&curr-name-color=%230059B0&fields=15m&force_lang=1"
 		scrolling="no" 
@@ -46,17 +35,6 @@ import Layout from '../layouts/BlogPost.astro';
 		marginwidth="0" 
 		marginheight="0">
 	</iframe>
-
-	<input type="button"
-	id="btn2"
-	value="Refresh Now!"/>
-
-        <script>
-            function reload() {
-                document.getElementById('somenums').src += '';
-            }
-            btn2.onclick = reload;
-        </script>
 
 	<iframe id="news"
 		src="https://sslecal2.investing.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&features=datepicker,timezone&countries=4,5&calType=day&timeZone=15&lang=1" 
@@ -72,14 +50,16 @@ import Layout from '../layouts/BlogPost.astro';
 	</div>
 
 	<input type="button"
-	id="btn3"
+	id="btn"
 	value="Refresh Now!"/>
 
         <script>
             function reload() {
                 document.getElementById('news').src += '';
+				document.getElementById('allnums').src += '';
+				document.getElementById('somenums').src += '';
             }
-            btn3.onclick = reload;
+            btn.onclick = reload;
         </script>
 	
 </Layout>
