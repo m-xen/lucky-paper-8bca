@@ -2,7 +2,7 @@
 title: "Wealth inequality"
 description: "A bit about wealth"
 pubDate: "Apr 25 2025"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "/canarywharf.jpg"
 ---
 
 ## Wealth Inequality

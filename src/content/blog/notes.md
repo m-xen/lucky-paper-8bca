@@ -2,7 +2,7 @@
 title: "Notes"
 description: "Zettelkasten note taking"
 pubDate: "Apr 25 2025"
-heroImage: "/blog-placeholder-3.jpg"
+heroImage: "/postit.jpg"
 ---
 
 ## Note-taking
