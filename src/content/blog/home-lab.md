@@ -2,7 +2,7 @@
 title: "Home lab"
 description: "My home IT setup"
 pubDate: "Apr 25 2025"
-heroImage: "/computer.jpg"
+heroImage: "/homenet.jpg"
 ---
 
 ## Home Lab Setup
