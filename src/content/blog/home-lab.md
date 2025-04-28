@@ -29,6 +29,11 @@ Containers:
 Network Infrastructure:
 * ASUS ZenWifi Mesh (https://www.asus.com/uk/content/zenwifi/)
 * Cloudflare ZTNA (https://www.cloudflare.com/en-gb/zero-trust/products/access/)
+* Cloudflare DNS (https://www.cloudflare.com/en-gb/application-services/products/dns/)
+
+Website:
+* Cloudflare Pages (https://pages.cloudflare.com/)
+* GitHub (https://github.com/m-xen/lucky-paper-8bca)
 
 Security & Monitoring:
 * RunZero (https://www.runzero.com)
