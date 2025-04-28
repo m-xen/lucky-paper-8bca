@@ -1,6 +1,6 @@
 ---
-title: "About"
-description: "About me"
+title: "Contact"
+description: "Contact me"
 pubDate: "Apr 25 2025"
 heroImage: "/nerd.jpg"
 ---
