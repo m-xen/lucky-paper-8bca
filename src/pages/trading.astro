@@ -26,7 +26,25 @@ import Layout from '../layouts/BlogPost.astro';
 		</script>
 	</div>
 	<!-- TradingView Widget END -->
-	
+
+	<!-- TradingView Widget BEGIN -->
+	<div class="tradingview-widget-container">
+	<div class="tradingview-widget-container__widget"></div>
+	<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+		{
+		"feedMode": "all_symbols",
+		"isTransparent": true,
+		"displayMode": "regular",
+		"width": 400,
+		"height": 550,
+		"colorTheme": "light",
+		"locale": "en"
+		}
+		</script>
+	</div>
+	<!-- TradingView Widget END -->
+
 	<iframe id="news"
 		src="https://sslecal2.investing.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&features=datepicker,timezone&countries=4,5&calType=day&timeZone=15&lang=1" 
 		width="650" 
