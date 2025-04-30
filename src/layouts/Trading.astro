@@ -29,7 +29,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				box-shadow: var(--box-shadow);
 			}
 			.prose {
-				display: inline-block;
+				display: flex;
                 max-width: calc(100% - 2em);
 				margin: auto;
 				padding: 1em;
@@ -51,12 +51,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
-            .flex-parent {
-                display: flex;
-            }
-            .flex-child {
-                flex: 1;
-            }
 		</style>
 	</head>
 
