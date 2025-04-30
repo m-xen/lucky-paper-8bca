@@ -14,7 +14,7 @@ import Layout from '../layouts/Trading.astro';
 		</a>
 	</div>
 
-	<div class="tradingview widget container">
+	<div class="tradingview widget container" id="tv widget">
   		<div class="tradingview-widget-calendar" style="display:inline-flex">
 			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
 			{
@@ -88,13 +88,20 @@ import Layout from '../layouts/Trading.astro';
 				marginheight="0">
 			</iframe>
 		</div>
-		
+
+		<input type="button"
+			id="btn"
+			value="Refresh Now!"/>
+
 		<script>
-			function reloadPage() {
-					window.location.reload();
+			function reload() {
+				document.getElementById('news').src += '';
+				document.getElementById('allnums').src += '';
+				document.getElementById('somenums').src += '';
+				window.location.reload();
 			}
+			btn.onclick = reload;
 		</script>
-		<button onclick="reloadPage()">Reload page</button>
 	</div>
 
 	
