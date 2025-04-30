@@ -14,7 +14,7 @@ import Layout from '../layouts/Trading.astro';
 		</a>
 	</div>
 
-	<div class="tradingview widget container">
+	<div class="tradingview widget container" id="tv widget">
   		<div class="tradingview-widget-calendar" style="display:inline-flex">
 			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
 			{
@@ -98,6 +98,7 @@ import Layout from '../layouts/Trading.astro';
 				document.getElementById('news').src += '';
 				document.getElementById('allnums').src += '';
 				document.getElementById('somenums').src += '';
+				document.getElementById('tv widget').src += '';
 			}
 			btn.onclick = reload;
 		</script>
