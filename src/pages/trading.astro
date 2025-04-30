@@ -45,6 +45,8 @@ import Layout from '../layouts/Trading.astro';
 	
 	<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
 	<span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar & Techincal Analysis provided by <a href="https://www.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link">Investing.com</a>.</span>
+	</div>
+	<div class="investingdotcom">
   		<div class="investingdotcom-widget-news" style="display:inline-block">
 			<iframe id="news"
 				src="https://sslecal2.investing.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&features=datepicker,timezone&countries=4,5&calType=day&timeZone=15&lang=1" 
@@ -86,18 +88,19 @@ import Layout from '../layouts/Trading.astro';
 				marginheight="0">
 			</iframe>
 		</div>
-	</div>
-	<input type="button"
-	id="btn"
-	value="Refresh Now!"/>
+		<input type="button"
+			id="btn"
+			value="Refresh Now!"/>
 
-        <script>
-            function reload() {
-                document.getElementById('news').src += '';
+		<script>
+			function reload() {
+				document.getElementById('news').src += '';
 				document.getElementById('allnums').src += '';
 				document.getElementById('somenums').src += '';
-            }
-            btn.onclick = reload;
-        </script>
+			}
+			btn.onclick = reload;
+		</script>
+	</div>
+
 	
 </Layout>
