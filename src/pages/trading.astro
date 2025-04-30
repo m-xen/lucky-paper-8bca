@@ -8,6 +8,25 @@ import Layout from '../layouts/BlogPost.astro';
 	pubDate={new Date('April 24 2025')}
 	heroImage="/trading.jpg">
 
+	<!-- TradingView Widget BEGIN -->
+	<div class="tradingview-widget-container">
+	<div class="tradingview-widget-container__widget">
+	</div>
+	<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+		{
+		"colorTheme": "dark",
+		"isTransparent": true,
+		"width": "400",
+		"height": "550",
+		"locale": "en",
+		"importanceFilter": "0,1",
+		"countryFilter": "us,gb"
+		}
+		</script>
+	</div>
+	<!-- TradingView Widget END -->
+
 	<iframe 
 		src="https://ssltvc.investing.com/?pair_ID=651&height=480&width=650&interval=3600&plotStyle=area&domain_ID=1&lang_ID=1&timezone_ID=11"
 		width="650"
