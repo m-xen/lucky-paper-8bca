@@ -7,6 +7,6 @@ heroImage: "/nerd.jpg"
 
 [Email](mailto:www@domainone.uk?subject=Hello%20from%20the%20www)
 
-[Mastodon Social Media](https://mastodon.social/@martinh888)
+[X Social Media](https://x.com/mm4698534199)
 
 [home](/)
