@@ -1,6 +1,7 @@
 ---
 title: "Notes"
 description: "Zettelkasten note taking"
+pubDate: "Apr 25 2025"
 heroImage: "/postit.jpg"
 ---
 
