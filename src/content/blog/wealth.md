@@ -1,11 +1,11 @@
 ---
-title: "Wealth inequality"
+title: "Wealth Economics"
 description: "A bit about wealth"
 pubDate: "Apr 25 2025"
 heroImage: "/canarywharf.jpg"
 ---
 
-## Wealth Inequality
+## Wealth Economics
 
 [Wealth Economics](https://www.wealtheconomics.org)
 

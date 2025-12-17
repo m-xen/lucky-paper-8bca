@@ -21,8 +21,6 @@ Containers:
 * Watchtower (https://github.com/containrrr/watchtower)
 * Folding at home (https://foldingathome.org/start-folding/)
 * Immich (https://immich.app/docs/install/docker-compose/)
-* Pi-hole (https://docs.pi-hole.net/docker/)
-* Wazuh (https://documentation.wazuh.com/current/deployment-options/docker/index.html)
 * Cloudflared (https://hub.docker.com/r/cloudflare/cloudflared)
 * Chrony (https://github.com/dockur/chrony)
 
