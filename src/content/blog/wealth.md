@@ -5,9 +5,7 @@ pubDate: "Apr 25 2025"
 heroImage: "/canarywharf.jpg"
 ---
 
-## Wealth Economics
-
-[Wealth Economics](https://www.wealtheconomics.org)
+## [Wealth Economics](https://www.wealtheconomics.org)
 
 I've been watching this guy on YouTube recently, and have since read his book.
 
