@@ -5,7 +5,7 @@ import Layout from '../layouts/Trading.astro';
 <Layout
 	title="Trading & Investing"
 	description="Links and tools for trading financial markets"
-	pubDate={new Date('April 24 2025')}
+	pubDate={{ now().strftime('%a&nbsp;%b&nbsp;%-d, %-I:%M&nbsp;%p')}}
 	heroImage="/trading.jpg">
 	
 	<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
