@@ -2,6 +2,7 @@
 title: "Home IT"
 description: "My home IT setup"
 pubDate: "Apr 25 2025"
+updatedDate: "Dec 18 2025"
 heroImage: "/towers.jpg"
 ---
 
