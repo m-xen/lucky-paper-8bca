@@ -6,7 +6,7 @@ updatedDate: "Dec 18 2025"
 heroImage: "/canarywharf.jpg"
 ---
 
-## https://www.wealtheconomics.org
+# https://www.wealtheconomics.org
 
 I've been watching this guy on YouTube recently, and have since read his book.
 
