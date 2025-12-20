@@ -13,7 +13,7 @@ Server:
 * Intel® Xeon® E5-2650 v4 14nm 12 core
 * 32.0 GiB
 * Nvidia Quadro M2000
-* Ubuntu 24.04.2 LTS
+* Ubuntu 24.04.3 LTS
 * Running [Portainer](https://www.portainer.io/) managing [Docker](https://docs.docker.com/engine/install/ubuntu/)
 
 Containers:
