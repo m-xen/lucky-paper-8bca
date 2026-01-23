@@ -15,6 +15,7 @@ Server:
 * Nvidia Quadro M2000
 * Ubuntu 24.04.3 LTS
 * Running [Portainer](https://www.portainer.io/) managing [Docker](https://docs.docker.com/engine/install/ubuntu/)
+* Backups [TimeShift](https://github.com/linuxmint/timeshift) and [DejaDup](https://apps.gnome.org/en-GB/DejaDup/)
 
 Containers:
 
